@@ -1,0 +1,48 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e9e8e8;
+}
+.content{
+    padding: 1rem;
+    background-color: #fcfbfb;
+    height: auto;
+    width: 100vw;
+}
+
+.content-hidden{
+    position: absolute;
+    z-index: 0;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.content h1{
+    margin: 0;
+}
+@media screen and (min-width: 768px){
+    .content{
+        max-width: 768px;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+    
+}
+@media screen and (min-width: 968px){
+    .content{
+        max-width: 968px;
+    }
+    .content-hidden{
+        overflow: scroll;
+        width: 50vw;
+        height: auto;
+        margin: 0;
+    }
+}
+
+.icon{
+    color: #ffffff;
+    opacity: .9;
+}
