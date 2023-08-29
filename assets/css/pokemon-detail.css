@@ -45,6 +45,10 @@
     border-radius: 1rem;
 }
 
+.icon{
+    cursor: pointer;
+}
+
 .like-icon-filled{
     color: red;
 }
